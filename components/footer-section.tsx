@@ -57,8 +57,6 @@ export function FooterSection() {
         {/* Disclaimers */}
         <div className="mt-8 border-t border-border pt-6">
           <p className="text-center text-[10px] leading-relaxed text-muted-foreground">
-            Resort Fee 안내: 라스베이거스의 고급 Resort Hotel에서는 체크아웃 시 별도의 Resort Fee를 부과합니다. (1일 $50~$65)
-            <br />
             손님의 부주의로 인한 부상, 분실은 관례에 따라 면책됨을 알려드립니다.
           </p>
         </div>

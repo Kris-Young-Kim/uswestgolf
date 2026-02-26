@@ -164,6 +164,7 @@ export const pricing = {
     { label: "식사", desc: "전 일정 식사" },
     { label: "그랜드캐니언", desc: "입장료 포함" },
     { label: "골프채 렌탈 2회", desc: "무어팍 CC + 시에나 GC" },
+    { label: "리조트 피", desc: "라스베이거스 호텔 Resort Fee 포함" },
   ],
   exclusions: [
     { label: "개인 경비", desc: "" },
@@ -187,8 +188,6 @@ export const companyInfo = {
 
 export const notices = [
   "호텔 비용은 예약 시점에 따라 가격이 변동될 수 있습니다.",
-  "라스베이거스의 고급 Resort Hotel에서는 호텔 체크아웃 시 별도의 Resort Fee를 부과합니다.",
-  "Resort Fee는 호텔 비용에 불포함되며 호텔 체크아웃 때 별도로 결제합니다. (1일 $50~$65)",
   "미국 입국 시 여권에 6개월 이상의 유효기간이 있어야 입국이 가능합니다.",
   "손님의 부주의로 인한 부상, 분실은 관례에 따라 면책됩니다.",
 ]
