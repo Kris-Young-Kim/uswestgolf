@@ -155,7 +155,7 @@ export const itinerary: ItineraryDay[] = [
 ]
 
 export const pricing = {
-  perPerson: "$2,650",
+  perPerson: "650만원",
   basis: "4인 기준",
   inclusions: [
     { label: "전 일정 차량", desc: "7인승 벤" },
@@ -166,9 +166,7 @@ export const pricing = {
     { label: "골프채 렌탈 2회", desc: "무어팍 CC + 시에나 GC" },
   ],
   exclusions: [
-    { label: "가이드 팁", desc: "1일 $100" },
-    { label: "선택 관광", desc: "현장 결제" },
-    { label: "리조트 피", desc: "1일 $50~$65 (라스베이거스)" },
+    { label: "개인 경비", desc: "" },
   ],
 }
 

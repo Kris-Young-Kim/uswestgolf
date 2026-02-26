@@ -5,7 +5,7 @@ const route = [
   {
     id: "incheon",
     label: "인천",
-    sublabel: "출발",
+    sublabel: "출발(대한 항공, 아시아나 항공)",
     icon: Plane,
     color: "bg-sky-500",
     textColor: "text-sky-700 dark:text-sky-400",
@@ -64,7 +64,7 @@ const route = [
   {
     id: "return",
     label: "인천",
-    sublabel: "귀국",
+    sublabel: "귀국(대한 항공, 아시아나 항공)",
     icon: Plane,
     color: "bg-sky-500",
     textColor: "text-sky-700 dark:text-sky-400",

@@ -84,7 +84,7 @@ export function InquirySection() {
           >
             <Phone className="size-6 text-primary-foreground" />
             <div>
-              <p className="text-xs text-primary-foreground/70">US 전화</p>
+              <p className="text-xs text-primary-foreground/70">회사 전화</p>
               <p className="text-sm font-bold text-primary-foreground">{companyInfo.telUS}</p>
             </div>
           </a>
@@ -95,7 +95,7 @@ export function InquirySection() {
           >
             <Phone className="size-6 text-primary-foreground" />
             <div>
-              <p className="text-xs text-primary-foreground/70">한국 전화</p>
+              <p className="text-xs text-primary-foreground/70">휴대 전화</p>
               <p className="text-sm font-bold text-primary-foreground">{companyInfo.telKorea}</p>
             </div>
           </a>

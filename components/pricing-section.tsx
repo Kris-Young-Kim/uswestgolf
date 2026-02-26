@@ -37,7 +37,9 @@ export function PricingSection() {
                       <Check className="mt-0.5 size-4 shrink-0 text-primary" />
                       <div>
                         <p className="text-sm font-medium text-foreground">{item.label}</p>
-                        <p className="text-xs text-muted-foreground">{item.desc}</p>
+                        {item.desc && (
+                          <p className="text-xs text-muted-foreground">{item.desc}</p>
+                        )}
                       </div>
                     </li>
                   ))}
@@ -58,7 +60,9 @@ export function PricingSection() {
                       <X className="mt-0.5 size-4 shrink-0 text-accent" />
                       <div>
                         <p className="text-sm font-medium text-foreground">{item.label}</p>
-                        <p className="text-xs text-muted-foreground">{item.desc}</p>
+                        {item.desc && (
+                          <p className="text-xs text-muted-foreground">{item.desc}</p>
+                        )}
                       </div>
                     </li>
                   ))}
