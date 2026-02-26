@@ -1,6 +1,5 @@
-import { Phone, MessageCircle, ClipboardList } from "lucide-react"
+import { Phone, ClipboardList } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
 import { companyInfo } from "@/data/itinerary"
 
 export function InquirySection() {
@@ -20,7 +19,7 @@ export function InquirySection() {
         </div>
 
         {/* Contact buttons */}
-        <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-4 sm:grid-cols-3">
+        <div className="mx-auto mt-10 grid max-w-4xl grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           <a
             href={`tel:${companyInfo.telUS.replace(/[^0-9+]/g, "")}`}
             className="flex flex-col items-center gap-3 rounded-xl bg-primary-foreground/10 p-6 transition-colors hover:bg-primary-foreground/15"
@@ -54,23 +53,6 @@ export function InquirySection() {
               <p className="text-xs text-primary-foreground/70">온라인 문의</p>
               <p className="text-sm font-bold text-primary-foreground">네이버 폼</p>
             </div>
-          </a>
-        </div>
-
-        <div className="mt-6 text-center">
-          <a
-            href={`https://pf.kakao.com/_${companyInfo.kakao}`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button
-              variant="outline"
-              size="lg"
-              className="border-primary-foreground/30 bg-transparent text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground"
-            >
-              <MessageCircle className="size-4" />
-              카카오톡 채널: {companyInfo.kakao}
-            </Button>
           </a>
         </div>
       </div>
