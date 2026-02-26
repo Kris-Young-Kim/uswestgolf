@@ -9,7 +9,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'MINTOUR x GAJU TOUR | 미서부 7일 골프 & 시닉 투어',
+  title: 'MINTOUR | 미서부 7일 골프 & 시닉 투어',
   description: '인생의 가장 아름다운 샷, 미서부 7일 골프 & 시닉 투어. LA, 그랜드캐니언, 라스베이거스를 아우르는 프리미엄 골프 여행.',
   generator: 'v0.app',
   icons: {

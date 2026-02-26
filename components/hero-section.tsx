@@ -1,5 +1,4 @@
 import Image from "next/image"
-import { Download } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 
@@ -46,16 +45,6 @@ export function HeroSection() {
               className="border-primary-foreground/30 bg-transparent text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground"
             >
               요금 안내
-            </Button>
-          </a>
-          <a href="/itinerary.pdf" download="가주투어_미서부골프여행_일정표.pdf">
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-primary-foreground/30 bg-transparent text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground"
-            >
-              <Download className="size-4" />
-              일정표 다운로드
             </Button>
           </a>
         </div>

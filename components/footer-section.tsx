@@ -22,7 +22,7 @@ export function FooterSection() {
               <div className="flex size-8 items-center justify-center rounded-lg bg-primary">
                 <span className="text-xs font-bold text-primary-foreground">M</span>
               </div>
-              <span className="text-sm font-bold text-foreground">MINTOUR x GAJU TOUR</span>
+              <span className="text-sm font-bold text-foreground">MINTOUR</span>
             </div>
             <h2 className="mt-2 text-sm font-bold text-foreground">
               {mintour.name} ({mintour.type})

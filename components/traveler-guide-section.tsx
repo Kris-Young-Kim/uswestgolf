@@ -40,13 +40,6 @@ export function TravelerGuideSection() {
                 </div>
               ))}
             </div>
-
-            <div className="mt-4 flex items-start gap-2 rounded-lg border border-accent/20 bg-accent/5 p-3">
-              <Info className="mt-0.5 size-4 shrink-0 text-accent" />
-              <p className="text-xs leading-relaxed text-foreground">
-                기사 겸 가이드의 팁은 행사비에 불포함이며, 별도로 지불해 주시면 감사하겠습니다.
-              </p>
-            </div>
           </div>
 
           {/* Preparations */}

@@ -4,7 +4,7 @@ import { useState } from "react"
 import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { z } from "zod"
-import { Phone, MessageCircle, Globe, Send, CheckCircle, AlertCircle } from "lucide-react"
+import { Phone, MessageCircle, Send, CheckCircle, AlertCircle } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -72,7 +72,7 @@ export function InquirySection() {
             지금 바로 예약 문의하세요
           </h2>
           <p className="mt-3 text-primary-foreground/70">
-            즐거운 여행에는 항상 GAJU TOUR가 함께 합니다
+            즐거운 여행에는 항상 민투어가 함께 합니다
           </p>
         </div>
 
@@ -233,18 +233,14 @@ export function InquirySection() {
         </div>
 
         <div className="mt-8 text-center">
-          <a
-            href={`https://${companyInfo.website}`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href={`https://pf.kakao.com/_${companyInfo.kakao}`} target="_blank" rel="noopener noreferrer">
             <Button
               variant="outline"
               size="lg"
               className="border-primary-foreground/30 bg-transparent text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground"
             >
-              <Globe className="size-4" />
-              {companyInfo.website}
+              <MessageCircle className="size-4" />
+              카카오톡 채널: {companyInfo.kakao}
             </Button>
           </a>
         </div>

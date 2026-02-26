@@ -20,11 +20,11 @@ export function GlobalNavBar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
         <a href="#" className="flex items-center gap-2">
           <div className="flex size-9 items-center justify-center rounded-lg bg-primary">
-            <span className="text-sm font-bold text-primary-foreground">G</span>
+            <span className="text-sm font-bold text-primary-foreground">M</span>
           </div>
           <div className="flex flex-col">
             <span className="text-sm font-bold leading-tight text-foreground">
-              MINTOUR x GAJU TOUR
+              MINTOUR
             </span>
             <span className="text-[10px] leading-tight text-muted-foreground">
               미서부 골프 투어 전문

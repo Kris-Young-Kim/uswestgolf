@@ -173,16 +173,16 @@ export const pricing = {
 export const tipGuide = [
   { place: "일반 식당", amount: "총금액의 15%~20%" },
   { place: "호텔 뷔페", amount: "총금액의 10%~20%" },
-  { place: "기사 겸 가이드", amount: "1일 $100 (별도)" },
 ]
 
 export const companyInfo = {
-  name: "GAJU TOUR, INC.",
-  license: "CST 2103448-40",
-  address: "2730 W Olympic Blvd #303, Los Angeles, CA 90015 USA",
+  name: "민투어",
+  registration: "146-02-02477",
+  address: "강원특별자치도 원주시 서원대로 172, 3층(단계동)",
   telUS: "033-742-8053",
   telKorea: "010-4766-8053",
-  website: "www.gajutour.com",
+  ceo: "김민규",
+  kakao: "mintour",
 }
 
 export const notices = [
